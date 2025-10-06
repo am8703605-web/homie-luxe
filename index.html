@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>HOMIE Luxe</title>
+  <link rel="stylesheet" href="styles.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500;700&family=Lora&display=swap" rel="stylesheet">
+</head>
+
+<body>
+  <header class="navbar">
+    <div class="logo">HOMIE <span>Luxe</span></div>
+    <nav>
+      <a href="#home">Home</a>
+      <a href="#shop">Shop</a>
+      <a href="#about">About</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <section id="home" class="hero">
+    <div class="hero-text">
+      <h1>Style. Class. Confidence.</h1>
+      <p>Discover premium fashion made for your vibe.</p>
+      <a href="#shop" class="btn">Shop Now</a>
+    </div>
+  </section>
+
+  <section id="shop" class="shop">
+    <h2>Our Collection</h2>
+    <div class="product-grid">
+      <div class="product-card">
+        <img src="assets/product1.jpg" alt="Hoodie" />
+        <h3>Classic Hoodie</h3>
+        <p>$45</p>
+        <button onclick="buyNow('hoodie')">Buy Now</button>
+      </div>
+      <div class="product-card">
+        <img src="assets/product2.jpg" alt="T-Shirt" />
+        <h3>Signature Tee</h3>
+        <p>$30</p>
+        <button onclick="buyNow('tshirt')">Buy Now</button>
+      </div>
+      <div class="product-card">
+        <img src="assets/product3.jpg" alt="Mug" />
+        <h3>Gold Edition Mug</h3>
+        <p>$15</p>
+        <button onclick="buyNow('mug')">Buy Now</button>
+      </div>
+    </div>
+  </section>
+
+  <section id="about" class="about">
+    <h2>About HOMIE Luxe</h2>
+    <p>HOMIE Luxe blends comfort and class into every piece. Designed for dreamers, doers, and believers in premium street style.</p>
+  </section>
+
+  <section id="contact" class="contact">
+    <h2>Contact Us</h2>
+    <p>Email: <a href="mailto:support@homieluxe.com">support@homieluxe.com</a></p>
+  </section>
+
+  <footer>
+    <p>© 2025 HOMIE Luxe. All rights reserved.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
